@@ -45,7 +45,7 @@ public class Dropbox {
 			driver.switchTo().window(popWindow);
 		}
 		WebElement text = driver.findElement(By.id("name"));
-		text.sendKeys("gaurav");
+		text.sendKeys("gaurav shukla");
 		driver.findElement(By.id("submit")).click();
 		driver.switchTo().window(MainWindow);
 		driver.findElement(By.linkText("Proceed")).click();
